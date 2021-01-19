@@ -127,11 +127,39 @@ header h1 {
   font-weight: 600;
 }
 
+.main {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 100px;
+
+
+}
+
+.flex-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 45%;
+}
+
+.flex-items h2 {
+  font-weight: 700;
+  color: gray;
+}
+
+.flex-items p {
+  color: gray;
+  line-height: 40px;
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
   font-weight: 700;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .div-1, .div-2, .div-3 {
@@ -158,6 +186,16 @@ header h1 {
   text-decoration: none;
 }
 
+footer {
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: gray;
+}
 
 
 
